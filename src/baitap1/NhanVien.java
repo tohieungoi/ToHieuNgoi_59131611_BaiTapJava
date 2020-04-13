@@ -77,7 +77,8 @@ public class NhanVien
 // lay thong tin nv
     public  String getThongTin(){
         return "ten:"+ this.ten + "\t tuoi:"+this.tuoi+"\t dia chi:"+this.diaChi
-       +"\t tien luong:"+this.tienLuong+"\t tong gio lam:"+this.tongGioLam;
+       +"\t tien luong:"+this.tienLuong+"\t tong gio lam:"+this.tongGioLam
+                +"\t tien thuong:"+tinhThuong();
     }
  //tinh luong nv
     public double tinhThuong(){

@@ -20,8 +20,8 @@ public class Main1 {
       NhanVien nv2 = new NhanVien("Han Mac Tu",26,"Quy Nhon , Binh Dinh",14000000,201);
       //
       //in thong tin nv
-      System.out.println(nv1.getThongTin()+"\t tien thuong:"+nv1.tinhThuong() );
-      System.out.println(nv2.getThongTin()+"\t tien thuong:"+nv2.tinhThuong()) ;
+      System.out.println(nv1.getThongTin());
+      System.out.println(nv2.getThongTin()) ;
       
       
     }

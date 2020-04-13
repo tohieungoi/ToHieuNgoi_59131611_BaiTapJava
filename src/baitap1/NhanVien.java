@@ -26,6 +26,14 @@ public class NhanVien
     this.tongGioLam=0;
     
     }
+  public NhanVien(String ten,int tuoi,String diaChi,double tienLuong,int tongGioLam)
+  {
+       this.ten = ten;
+       this.tuoi = tuoi;
+       this.diaChi = diaChi;
+       this.tienLuong = tienLuong;
+       this.tongGioLam = tongGioLam;
+  }
 
     public String getTen() {
         return ten;
